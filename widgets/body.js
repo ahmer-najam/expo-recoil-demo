@@ -24,7 +24,7 @@ export default function Body({ navigation }) {
 
   return (
     <View style={globalStyles.body}>
-      <h1>Profile</h1>
+      <h1 style={globalStyles.inputText}>Profile</h1>
       <Text>Person Details: {userName}</Text>
       <TextInput
         style={globalStyles.inputText}

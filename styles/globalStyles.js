@@ -11,9 +11,11 @@ export const globalStyles = StyleSheet.create({
     margin: 10,
     textAlign: "center",
     borderBottomWidth: 1,
+    fontFamily: "Georama",
   },
   navText: {
     fontWeight: "bold",
+    fontFamily: "Georama",
   },
   inputText: {
     width: "50%",
@@ -23,5 +25,7 @@ export const globalStyles = StyleSheet.create({
     borderColor: "black",
     borderWidth: 1,
     borderRadius: 5,
+    fontFamily: "Georama",
+    fontSize: 16,
   },
 });
